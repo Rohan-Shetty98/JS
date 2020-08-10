@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+/*#0C0A3E
+F3C677
+0A090B
+FFFFFF
+font-family: 'Marck Script', cursive;
+*/
+
+
+body{
+    background: #0A090B;
+    font-family: 'Vidaloka', serif;
+}
+
+
+.icon-top a{
+    font-size: 25px;
+    color:#F3C677;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon-top h5{
+    font-family: 'Marck Script', cursive !important;
+    font-size: 25px;
+    color: #F3C677;
+}
+
+
+.icon-top a:hover{
+    color:#FFFFFF;
+}
+
+
+
+/**********************************************************HEADER****************************************************/
+
+
+.navbar{
+    background: #F3C677;
+    padding: 10px 20px;
+    transition: padding 2s ease;
+}
+
+.navbar-background{
+    padding: 2px 20px;
+}
+
+
+.bar1, .bar2, .bar3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #0C0A3E;
+    transition: all 0.5s ease;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.nav-link{
+    color:#0A090B;
+    font-size:25px;
+    padding:10px 20px !important;
+    border-radius: 5px;
+    transition: background 2s ease;
+}
+
+.nav-link:hover{
+    background:#FFFFFF;
+    color:#0C0A3E;
+}
+
+.nav-active{
+    color:#F3C677;
+    font-size: 25px;
+    padding: 10px 20px !important;
+    background: #0C0A3E;
+}
+
+.search-btn{
+    background:#FFFFFF;
+    transition: all 1s ease;
+}
+
+.search-btn:hover{
+    color:#F3C677;
+    background:#0C0A3E;
+}
+
+.navbar-toggler{
+    border: 3px solid #F3C677;
+    padding: px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
